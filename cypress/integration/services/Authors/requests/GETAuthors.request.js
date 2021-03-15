@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-function GETAuthors() {
+function allAuthors() {
     return cy.request({
         method: 'GET',
         url: '/Authors',
@@ -8,4 +8,4 @@ function GETAuthors() {
     });
 }
 
-export { GETAuthors }
+export { allAuthors }
