@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
-function GETActivities() {
+function GETAuthors() {
     return cy.request({
         method: 'GET',
-        url: '/Activities',
+        url: '/Authors',
         failOnStatusCode: false
     });
 }
 
-export { GETActivities }
+export { GETAuthors }
